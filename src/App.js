@@ -5,9 +5,7 @@ import Signup from "./pages/Auth/Signup";
 import Login from "./pages/Auth/Login";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import { AuthProvider } from "./context/AuthContext";
-/* import Dashboard from "./pages/Dashboard/Dashboard";
-import AddContact from "./components/AddContact/AddContact";
-import Avatar from "./components/Avatar"; */
+
 function App() {
   const router = createBrowserRouter([
     { path: "/", element: <LandingPage /> },
